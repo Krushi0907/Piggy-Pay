@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile_employee"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_profile" />
+
+        <item
+            android:id="@+id/attendance_employee"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_attendance" />
+        <item
+            android:id="@+id/leave_employee"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_leave" />
+        <item
+            android:id="@+id/salary_employee"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_salary" />
+        <item
+            android:id="@+id/logout_employee"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

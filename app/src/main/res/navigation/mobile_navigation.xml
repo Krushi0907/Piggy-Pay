@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="admin.ui.HomeFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="admin.ui.GalleryFragment"
+        android:label="Employee"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="admin.ui.AttensanceFragment"
+        android:label="Attendance"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_leave"
+        android:name="admin.ui."
+        android:label="Leave"
+        tools:layout="@layout/fragment_leave" />
+
+    <fragment
+        android:id="@+id/nav_salary"
+        android:name="admin.ui.SlideshowFragment"
+        android:label="Salary"
+        tools:layout="@layout/fragment_salary" />
+
+</navigation>
